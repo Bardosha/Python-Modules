@@ -1,0 +1,8 @@
+[tool.poetry]
+name = "loading"
+version = "0.1.0"
+description = "Dependency management exercise"
+authors = []
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
