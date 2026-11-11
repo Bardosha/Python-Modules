@@ -51,7 +51,7 @@ def security_check() -> None:
     print("\nConfiguration security check:\n"
           "[OK] No hardcoded secrets detected")
 
-    if not os.path.isfile(".env"):
+    if not os.path.isfile(".env"):  # существует ли файл по указанному пути.
         print("[WARNING] .env file not found\n"
               "'cp .env.example .env' to create a .env file")
     else:
